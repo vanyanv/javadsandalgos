@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build directories
+dist/
+build/
+
+# Compiled JavaScript files
+*.js.map
+
+# Environment variables
+.env
+.env.local
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Backup files
+*.bak
+
+__pycache__/
+*.pyc
+venv/
+
+target/
+*.class
+
+# Coverage reports
+coverage/
+
+# Test results
+junit.xml
