@@ -4,6 +4,21 @@ public class hw1e4 {
 
   public static void windowPosSum(int[] a, int n) {
     /** your code here */
+    for (int i = 0; i < a.length; i++) {
+      int current = a[i];
+
+      if (current < 0) {
+        continue;
+      }
+      for (int j = 0; j < n; j++) {
+        int next = i + j + 1;
+        if (next >= a.length) {
+          break;
+        }
+        a[i] += a[next];
+        
+      }
+    }
   }
 
   public static void main(String[] args) {
